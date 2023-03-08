@@ -61,6 +61,7 @@ end
 # HINT: Try to use methods you've already written to solve this!
 def print_spiciest_foods(spicy_foods)
   # your code here
+  print_spicy_foods(spicy_foods.filter {|food| food[:heat_level] > 5})
 end
 
 # given an array of spicy foods, return an integer representing 
